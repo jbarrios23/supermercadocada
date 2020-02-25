@@ -34,7 +34,7 @@ bintray {
     pkg {
         repo = 'librarynp' // YOUR REPOSITORY NAME FROM BINTRAY ACCOUNT
         name = 'com.android.librarynp' //YOUR PACKAGE NAME FROM BINTRAY ACCOUNT
-        desc = 'FilePickerHelper is a library to get multi-type files written in Java.' // YOUR LIBRARY DESCRIPTION
+        desc = 'Library for handle of Notification push in android' // YOUR LIBRARY DESCRIPTION
         websiteUrl = 'https://github.com/jbarrios23/supermercadocada' // YOUR SITE
         vcsUrl = 'https://github.com/jbarrios23/supermercadocada.git' // YOUR GIT REPO
         licenses = ["Apache-2.0"] // A LIST OF YOUR LICENCES
