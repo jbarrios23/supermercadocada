@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364686796433",
+    "firebase_url": "https://supermercadocada.firebaseio.com",
+    "project_id": "supermercadocada",
+    "storage_bucket": "supermercadocada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364686796433:android:a135c6c827d4fd4fe24130",
+        "android_client_info": {
+          "package_name": "com.android.supermercadocada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364686796433-1kmgm34gtalv8ejvepam2g179f62mrme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.supermercadocada",
+            "certificate_hash": "94a1d3ad073e30880ba09401a93ae3d095af18b4"
+          }
+        },
+        {
+          "client_id": "364686796433-3nf8aboda4b7169kdp394mg72q0mu7vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu5CNBqCJ41TPUwMd8kPb6HvJNd0cm2Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364686796433-3nf8aboda4b7169kdp394mg72q0mu7vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
