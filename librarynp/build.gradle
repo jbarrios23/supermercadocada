@@ -32,3 +32,6 @@ dependencies {
 
 }
 
+apply from: 'install.gradle'
+apply from: 'bintray.gradle'
+

@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.android.librarynp' // PACKAGE NAME FROM BINTRAY ACCOUNT
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.android.librarynp' // PACKAGE NAME FROM BINTRAY ACCOUNT
+                artifactId 'librarynp' // THE NAME OF YOUR MODULE
+
+                name 'librarynp' // YOUR LIBRARY NAME
+                description 'FilePickerHelper is a library to get multi-type files written in Java.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/jbarrios23/supermercadocada' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'jbarrios23' //YOUR GITHUB ID
+                        name 'Javier Barrios' //YOUR NAME
+                        email 'jbarrios.javier@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/jbarrios23/supermercadocada.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/jbarrios23/supermercadocada.git' // YOUR GIT REPO
+                    url 'https://github.com/jbarrios23/supermercadocada' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
